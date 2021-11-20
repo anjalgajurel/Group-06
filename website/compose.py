@@ -8,7 +8,7 @@ from flask import Blueprint, render_template, redirect, request, url_for, flash
 from .views import authenticate, server_add, port, context
 
 compose = Blueprint('compose', __name__)
-
+#comepose blueprint
 
 @compose.route('/compose', methods=['GET', 'POST'])
 def composeMail():
